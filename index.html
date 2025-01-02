@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/9e975874b7.js" crossorigin="anonymous"></script>
-    <script src="script.js"></script>
 </head>
 <body>
     <nav>
@@ -27,23 +26,39 @@
                 <i class="fa-solid fa-xmark cancel"></i>
             </div>
         </div-->
+        <!-- Hidden checkbox for toggling -->
+        <input type="checkbox" id="menuToggle" class="menu-toggle">
+        <!-- Hamburger icon that triggers checkbox click -->
+        <label for="menuToggle" class="hamburg">
+            <i class="fa-solid fa-bars"></i>
+        </label>
+
+        <div class="dropdown">
+            <div class="links">
+                <a href="#">Home</a>
+                <a href="#">Skills</a>
+                <a href="#">Contact</a>
+                <!-- Cancel button -->
+                <label for="menuToggle" class="cancel">
+                    <i class="fa-solid fa-xmark"></i>
+                </label>
+            </div>
+        </div>
+        <!--chatgpt suggestion ends-->
+
     </nav>
     <section>
         <div class="main-container">
             <div class="content">
                 <h1>Hey I'm <span>Shephalika</span></h1>
                 <div class="typewriter">
-                    I'm a 
                     <span class="typewriter-text">
-                        <!-- for typing effect-->
-                        <p class="header-sub-title" id="words"></p>
-                        <p class="header-sub-title blink">|</p>
                         <!--label for="">learner</label>
                         <label for="">teacher</label>
                         <label for="">song-writer</label>
                         <label for="">business-process enthusiast</label-->
                     </span>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio reiciendis praesentium nobis tempora quo! Dolores alias eveniet, dolorem repellendus vitae explicabo quo, qui vero sit aliquid impedit molestias consequatur molestiae!</p>
+                    <p>I’m an academic at heart, a storyteller by passion, and a curious mind aiming to explore the world of business analytics. Whether I’m crafting melodies or diving into new knowledge, I thrive on creativity and the drive to solve meaningful challenges.</p>
                     <div class="social-links">
                         <a href="https://www.linkedin.com/in/shephalika-dhakal/">
                             <i class="fa-brands fa-linkedin"></i>
@@ -58,7 +73,9 @@
                             <i class="fa-brands fa-facebook"></i>
                         </a>
                     </div>
-                    <button>Download CV</button>
+                    <a href="https://drive.usercontent.google.com/u/0/uc?id=1kbBXBDQMoRe2P7yeHvbXbTZuQ0Av10rV&export=download">
+                        <button >Download Resume</button>
+                    </a>
                 </div>
             </div>
             <div class="image">
